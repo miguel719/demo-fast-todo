@@ -40,7 +40,7 @@ npm run build
 You can set the source entrypoint from Lit or Fast on the rollup.config.js
 
 ```
-  input: ["./src/componentsLit/TodoList.ts"]
+  input: ["./src/components/TodoList.ts"]
 ```
 
 ## Redux Devtool
