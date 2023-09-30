@@ -53,7 +53,7 @@ export class TasksList extends connect(store)(FASTElement) {
 
   stateChanged(state: any) {
     const tasks = state.tasksData.tasks;
-    if (tasks && tasks.length > 0) {
+    if (tasks && tasks.length >= 0) {
       this.tasks = [...tasks];
     }
   }
